@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="c3f2971e47a12e10a91ee30b216d434a" label="Wish Item" max_length="40" name="x_1759994_wish_lis_wish_item" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Display name" max_length="300" name="display_name" type="string"/>
         <element attributes="encode_utf8=false" label="Requester" mandatory="true" max_length="32" name="requester" reference="sys_user" type="reference"/>
         <element label="URL" max_length="1024" name="url" type="url"/>
         <element label="Quantity" max_length="40" name="quantity" type="integer"/>
